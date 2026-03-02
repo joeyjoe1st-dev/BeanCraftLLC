@@ -20,6 +20,10 @@ import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.beancraft.init.BeancraftModTabs;
+import net.mcreator.beancraft.init.BeancraftModItems;
+import net.mcreator.beancraft.init.BeancraftModBlocks;
+
 import javax.annotation.Nullable;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
@@ -43,6 +47,9 @@ public class BeancraftMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
+		BeancraftModBlocks.REGISTRY.register(modEventBus);
+		BeancraftModItems.REGISTRY.register(modEventBus);
+		BeancraftModTabs.REGISTRY.register(modEventBus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

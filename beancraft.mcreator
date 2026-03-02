@@ -1,22 +1,79 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Test",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beancraft/worldgen/placed_feature/test_tree.json",
+          "src/main/resources/data/beancraft/worldgen/configured_feature/test_tree.json",
+          "src/main/resources/data/beancraft/worldgen/biome/test.json"
+        ]
+      },
+      "path": "~/Bean_biomes"
+    },
+    {
+      "name": "DIMENSIONTEST",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimensiontest",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beancraft/models/block/dimensiontest_portal_ns.json",
+          "src/main/java/net/mcreator/beancraft/item/DIMENSIONTESTItem.java",
+          "src/main/resources/data/beancraft/dimension_type/dimensiontest.json",
+          "src/main/resources/assets/beancraft/models/block/dimensiontest_portal_ew.json",
+          "src/main/resources/assets/beancraft/items/dimensiontest.json",
+          "src/main/resources/assets/beancraft/models/item/dimensiontest.json",
+          "src/main/java/net/mcreator/beancraft/world/teleporter/DIMENSIONTESTTeleporter.java",
+          "src/main/resources/data/beancraft/dimension/dimensiontest.json",
+          "src/main/resources/assets/beancraft/blockstates/dimensiontest_portal.json",
+          "src/main/java/net/mcreator/beancraft/world/teleporter/DIMENSIONTESTPortalShape.java",
+          "src/main/java/net/mcreator/beancraft/block/DIMENSIONTESTPortalBlock.java",
+          "src/main/java/net/mcreator/beancraft/world/dimension/DIMENSIONTESTDimension.java"
+        ]
+      },
+      "path": "~/Bean_biomes"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.STRIPPED_WARPED_STEM",
+      "~Blocks.STONE#6",
+      "~Blocks.WAXED_OXIDIZED_CUT_COPPER"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "biome.beancraft.test": "Test",
+      "item.beancraft.dimensiontest": "PortalBean "
+    }
   },
   "metadata": {
     "files": [
-      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/beancraft/init/BeancraftModBlocks.java",
+      "src/main/java/net/mcreator/beancraft/init/BeancraftModItems.java",
+      "src/main/java/net/mcreator/beancraft/init/BeancraftModTabs.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/beancraft/BeancraftMod.java"
     ]
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Bean_biomes",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "beancraft",

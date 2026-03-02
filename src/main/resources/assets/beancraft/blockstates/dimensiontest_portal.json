@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "beancraft:block/dimensiontest_portal_ew"
+    },
+    "axis=x": {
+      "model": "beancraft:block/dimensiontest_portal_ns"
+    }
+  }
+}
