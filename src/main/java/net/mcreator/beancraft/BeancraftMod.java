@@ -22,6 +22,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.beancraft.init.BeancraftModTabs;
 import net.mcreator.beancraft.init.BeancraftModItems;
+import net.mcreator.beancraft.init.BeancraftModEntities;
 import net.mcreator.beancraft.init.BeancraftModBlocks;
 
 import javax.annotation.Nullable;
@@ -49,6 +50,7 @@ public class BeancraftMod {
 		modEventBus.addListener(this::registerNetworking);
 		BeancraftModBlocks.REGISTRY.register(modEventBus);
 		BeancraftModItems.REGISTRY.register(modEventBus);
+		BeancraftModEntities.REGISTRY.register(modEventBus);
 		BeancraftModTabs.REGISTRY.register(modEventBus);
 		// Start of user code block mod init
 		// End of user code block mod init

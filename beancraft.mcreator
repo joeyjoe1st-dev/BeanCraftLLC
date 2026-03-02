@@ -38,6 +38,21 @@
         ]
       },
       "path": "~/Bean_biomes"
+    },
+    {
+      "name": "Testboss",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testboss",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beancraft/entity/TestbossEntity.java",
+          "src/main/resources/assets/beancraft/items/testboss_spawn_egg.json",
+          "src/main/java/net/mcreator/beancraft/client/renderer/TestbossRenderer.java"
+        ]
+      },
+      "path": "~/Boss Stuff"
     }
   ],
   "variable_elements": [],
@@ -53,13 +68,16 @@
   "language_map": {
     "en_us": {
       "biome.beancraft.test": "Test",
-      "item.beancraft.dimensiontest": "PortalBean "
+      "item.beancraft.dimensiontest": "PortalBean ",
+      "entity.beancraft.testboss": "Testboss"
     }
   },
   "metadata": {
     "files": [
       "src/main/java/net/mcreator/beancraft/init/BeancraftModBlocks.java",
       "src/main/java/net/mcreator/beancraft/init/BeancraftModItems.java",
+      "src/main/java/net/mcreator/beancraft/init/BeancraftModEntities.java",
+      "src/main/java/net/mcreator/beancraft/init/BeancraftModEntityRenderers.java",
       "src/main/resources/pack.mcmeta",
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/java/net/mcreator/beancraft/BeancraftMod.java",

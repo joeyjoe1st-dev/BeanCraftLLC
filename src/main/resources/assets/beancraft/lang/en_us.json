@@ -1,4 +1,5 @@
 {
   "biome.beancraft.test": "Test",
-  "item.beancraft.dimensiontest": "PortalBean "
+  "item.beancraft.dimensiontest": "PortalBean ",
+  "entity.beancraft.testboss": "Testboss"
 }
