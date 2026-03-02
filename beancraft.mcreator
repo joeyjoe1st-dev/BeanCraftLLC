@@ -1,18 +1,5 @@
 {
-  "mod_elements": [
-    {
-      "name": "Wrerw",
-      "type": "code",
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "wrerw",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/beancraft/Wrerw.java"
-        ]
-      }
-    }
-  ],
+  "mod_elements": [],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
