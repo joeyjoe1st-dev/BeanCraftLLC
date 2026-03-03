@@ -406,6 +406,12 @@
       "~CUSTOM:Beangrass",
       "~Blocks.STONE#0",
       "~CUSTOM:Dirt"
+    ],
+    "BLOCKS:crops:farmland": [
+      "Blocks.FARMLAND"
+    ],
+    "ITEMS:crops:fertilizer": [
+      "Items.DYE#15"
     ]
   },
   "tab_element_order": {},
