@@ -227,7 +227,6 @@
       "registry_name": "bean_seed_stage_3",
       "metadata": {
         "files": [
-          "src/main/resources/data/beancraft/loot_table/blocks/bean_seed_stage_3.json",
           "src/main/java/net/mcreator/beancraft/block/BeanSeedStage3Block.java",
           "src/main/resources/assets/beancraft/items/bean_seed_stage_3.json",
           "src/main/resources/assets/beancraft/models/block/bean_seed_stage_3.json",
@@ -343,11 +342,28 @@
         ]
       },
       "path": "~/Blocks"
+    },
+    {
+      "name": "BeanSeedStage3Loot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bean_seed_stage_3_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beancraft/loot_table/blocks/bean_seed_stage_3.json"
+        ]
+      },
+      "path": "~/Plants/Blocks"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "BLOCKS:crops:farmland": [
+      "Blocks.FARMLAND"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
@@ -357,7 +373,8 @@
       "item.beancraft.dirt": "Dirt",
       "item.beancraft.bean_trade_station": "Bean Trade Station",
       "entity.villager.beancraft.semiinfected_bean": "Semiinfected Bean",
-      "item.beancraft.bean_seed_item": "Bean Seed Item"
+      "item.beancraft.bean_seed_item": "Bean Seed Item",
+      "item.beancraft.bean_seed_stage_3": "Bean Plant"
     }
   },
   "metadata": {
