@@ -16,7 +16,7 @@ import net.mcreator.beancraft.BeancraftMod;
 public class BeancraftModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, BeancraftMod.MODID);
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> BEAN_CRAFT = REGISTRY.register("bean_craft",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.beancraft.bean_craft")).icon(() -> new ItemStack(BeancraftModItems.DELETED_MOD_ELEMENT.get())).displayItems((parameters, tabData) -> {
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.beancraft.bean_craft")).icon(() -> new ItemStack(BeancraftModBlocks.BEANGRASS.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(BeancraftModBlocks.BEANGRASS.get().asItem());
 				tabData.accept(BeancraftModBlocks.DIRT.get().asItem());
 				tabData.accept(BeancraftModBlocks.BEAN_TRADE_STATION.get().asItem());
