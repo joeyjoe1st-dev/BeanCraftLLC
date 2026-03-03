@@ -1,20 +1,55 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "beancraft:blocks/bean_seed_stage_3",
   "pools": [
     {
-      "rolls": 1.0,
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ],
+      "rolls": {
+        "min": 3,
+        "max": 5
+      },
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "beancraft:bean_seed_item"
+          "name": "beancraft:bean",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "beancraft:bean_seed_item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ]
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "beancraft:blocks/bean_seed_stage_3"
 }

@@ -382,6 +382,19 @@
         ]
       },
       "path": "~/Bean_biomes"
+    },
+    {
+      "name": "BeanSeedStage3Loot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bean_seed_stage_3_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beancraft/loot_table/blocks/bean_seed_stage_3.json"
+        ]
+      },
+      "path": "~/Plants/Blocks"
     }
   ],
   "variable_elements": [],
@@ -417,12 +430,12 @@
       "src/main/java/net/mcreator/beancraft/init/BeancraftModBlocks.java",
       "src/main/java/net/mcreator/beancraft/init/BeancraftModBlockEntities.java",
       "src/main/java/net/mcreator/beancraft/init/BeancraftModItems.java",
-      "src/main/java/net/mcreator/beancraft/init/BeancraftModEntityRenderers.java",
       "src/main/java/net/mcreator/beancraft/init/BeancraftModEntities.java",
-      "src/main/java/net/mcreator/beancraft/init/BeancraftModTabs.java",
-      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/beancraft/init/BeancraftModEntityRenderers.java",
       "src/main/resources/pack.mcmeta",
-      "src/main/java/net/mcreator/beancraft/BeancraftMod.java"
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/beancraft/BeancraftMod.java",
+      "src/main/java/net/mcreator/beancraft/init/BeancraftModTabs.java"
     ]
   },
   "foldersRoot": {
@@ -454,8 +467,16 @@
           {
             "name": "Blocks",
             "children": []
+          },
+          {
+            "name": "Bone Meal",
+            "children": []
           }
         ]
+      },
+      {
+        "name": "Structures",
+        "children": []
       },
       {
         "name": "Blocks",
@@ -463,10 +484,6 @@
       },
       {
         "name": "Boss Stuff",
-        "children": []
-      },
-      {
-        "name": "Structures",
         "children": []
       }
     ]
