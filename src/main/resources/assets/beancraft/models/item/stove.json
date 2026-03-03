@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "beancraft:item/semi_villager_test_spawn_egg_generated"
+  },
+  "render_type": "translucent"
+}

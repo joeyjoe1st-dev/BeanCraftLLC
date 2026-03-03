@@ -5,10 +5,5 @@
   "item.beancraft.dirt": "Dirt",
   "item.beancraft.bean_trade_station": "Bean Trade Station",
   "entity.villager.beancraft.semiinfected_bean": "Semiinfected Bean",
-  "item.beancraft.bean_seed_item": "Bean Seed Item",
-  "item.beancraft.bean_seed_stage_0": "Bean Plant",
-  "item.beancraft.bean": "Bean",
-  "item.beancraft.bean_seed_stage_1": "Bean Plant",
-  "item.beancraft.bean_seed_stage_2": "Bean Plant",
-  "item.beancraft.bean_seed_stage_3": "Bean Plant"
+  "item.beancraft.bean_seed_item": "Bean Seed Item"
 }

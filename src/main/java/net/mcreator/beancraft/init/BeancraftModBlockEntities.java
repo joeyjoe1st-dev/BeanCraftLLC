@@ -26,9 +26,9 @@ import net.mcreator.beancraft.BeancraftMod;
 public class BeancraftModBlockEntities {
 	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(BuiltInRegistries.BLOCK_ENTITY_TYPE, BeancraftMod.MODID);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<BeanSeedStage0BlockEntity>> BEAN_SEED_STAGE_0 = register("bean_seed_stage_0", BeancraftModBlocks.BEAN_SEED_STAGE_0, BeanSeedStage0BlockEntity::new);
-	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<BeanSeedStage1BlockEntity>> BEAN_SEED_STAGE_1 = register("bean_seed_stage_1", BeancraftModBlocks.BEAN_SEED_STAGE_1, BeanSeedStage1BlockEntity::new);
-	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<BeanSeedStage2BlockEntity>> BEAN_SEED_STAGE_2 = register("bean_seed_stage_2", BeancraftModBlocks.BEAN_SEED_STAGE_2, BeanSeedStage2BlockEntity::new);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<BeanSeedStage3BlockEntity>> BEAN_SEED_STAGE_3 = register("bean_seed_stage_3", BeancraftModBlocks.BEAN_SEED_STAGE_3, BeanSeedStage3BlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<BeanSeedStage2BlockEntity>> BEAN_SEED_STAGE_2 = register("bean_seed_stage_2", BeancraftModBlocks.BEAN_SEED_STAGE_2, BeanSeedStage2BlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<BeanSeedStage1BlockEntity>> BEAN_SEED_STAGE_1 = register("bean_seed_stage_1", BeancraftModBlocks.BEAN_SEED_STAGE_1, BeanSeedStage1BlockEntity::new);
 
 	// Start of user code block custom block entities
 	// End of user code block custom block entities
@@ -39,8 +39,8 @@ public class BeancraftModBlockEntities {
 	@SubscribeEvent
 	public static void registerCapabilities(RegisterCapabilitiesEvent event) {
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, BEAN_SEED_STAGE_0.get(), SidedInvWrapper::new);
-		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, BEAN_SEED_STAGE_1.get(), SidedInvWrapper::new);
-		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, BEAN_SEED_STAGE_2.get(), SidedInvWrapper::new);
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, BEAN_SEED_STAGE_3.get(), SidedInvWrapper::new);
+		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, BEAN_SEED_STAGE_2.get(), SidedInvWrapper::new);
+		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, BEAN_SEED_STAGE_1.get(), SidedInvWrapper::new);
 	}
 }

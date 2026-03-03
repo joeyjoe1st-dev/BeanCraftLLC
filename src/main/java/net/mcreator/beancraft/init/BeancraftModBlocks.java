@@ -20,17 +20,19 @@ public class BeancraftModBlocks {
 	public static final DeferredBlock<Block> DIRT;
 	public static final DeferredBlock<Block> BEAN_TRADE_STATION;
 	public static final DeferredBlock<Block> BEAN_SEED_STAGE_0;
-	public static final DeferredBlock<Block> BEAN_SEED_STAGE_1;
-	public static final DeferredBlock<Block> BEAN_SEED_STAGE_2;
 	public static final DeferredBlock<Block> BEAN_SEED_STAGE_3;
+	public static final DeferredBlock<Block> BEAN_SEED_STAGE_2;
+	public static final DeferredBlock<Block> BEAN_SEED_STAGE_1;
+	public static final DeferredBlock<Block> STOVE;
 	static {
 		BEANGRASS = register("beangrass", BeangrassBlock::new);
 		DIRT = register("dirt", DirtBlock::new);
 		BEAN_TRADE_STATION = register("bean_trade_station", BeanTradeStationBlock::new);
 		BEAN_SEED_STAGE_0 = register("bean_seed_stage_0", BeanSeedStage0Block::new);
-		BEAN_SEED_STAGE_1 = register("bean_seed_stage_1", BeanSeedStage1Block::new);
-		BEAN_SEED_STAGE_2 = register("bean_seed_stage_2", BeanSeedStage2Block::new);
 		BEAN_SEED_STAGE_3 = register("bean_seed_stage_3", BeanSeedStage3Block::new);
+		BEAN_SEED_STAGE_2 = register("bean_seed_stage_2", BeanSeedStage2Block::new);
+		BEAN_SEED_STAGE_1 = register("bean_seed_stage_1", BeanSeedStage1Block::new);
+		STOVE = register("stove", StoveBlock::new);
 	}
 
 	// Start of user code block custom blocks
