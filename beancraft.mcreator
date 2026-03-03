@@ -343,11 +343,59 @@
         ]
       },
       "path": "~/Blocks"
+    },
+    {
+      "name": "Grassland",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grassland",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beancraft/worldgen/placed_feature/grassland_tree.json",
+          "src/main/resources/data/beancraft/worldgen/configured_feature/grassland_tree.json",
+          "src/main/resources/data/beancraft/worldgen/biome/grassland.json"
+        ]
+      },
+      "path": "~/Bean_biomes"
+    },
+    {
+      "name": "BeanDimension",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bean_dimension",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beancraft/world/teleporter/BeanDimensionTeleporter.java",
+          "src/main/resources/assets/beancraft/blockstates/bean_dimension_portal.json",
+          "src/main/resources/assets/beancraft/models/item/bean_dimension.json",
+          "src/main/resources/data/beancraft/dimension_type/bean_dimension.json",
+          "src/main/java/net/mcreator/beancraft/world/teleporter/BeanDimensionPortalShape.java",
+          "src/main/java/net/mcreator/beancraft/item/BeanDimensionItem.java",
+          "src/main/resources/data/beancraft/dimension/bean_dimension.json",
+          "src/main/resources/assets/beancraft/models/block/bean_dimension_portal_ns.json",
+          "src/main/resources/assets/beancraft/models/block/bean_dimension_portal_ew.json",
+          "src/main/resources/assets/beancraft/items/bean_dimension.json",
+          "src/main/java/net/mcreator/beancraft/world/dimension/BeanDimensionDimension.java",
+          "src/main/java/net/mcreator/beancraft/block/BeanDimensionPortalBlock.java"
+        ]
+      },
+      "path": "~/Bean_biomes"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "BIOMES:minecraft:has_structure/village_plains": [
+      "~CUSTOM:Grassland"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:Beangrass",
+      "~Blocks.STONE#0",
+      "~CUSTOM:Dirt"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
@@ -357,7 +405,9 @@
       "item.beancraft.dirt": "Dirt",
       "item.beancraft.bean_trade_station": "Bean Trade Station",
       "entity.villager.beancraft.semiinfected_bean": "Semiinfected Bean",
-      "item.beancraft.bean_seed_item": "Bean Seed Item"
+      "item.beancraft.bean_seed_item": "Bean Seed Item",
+      "biome.beancraft.grassland": "Grassland",
+      "item.beancraft.bean_dimension": "Bean Dimension Portal Igniter"
     }
   },
   "metadata": {
@@ -367,12 +417,12 @@
       "src/main/java/net/mcreator/beancraft/init/BeancraftModBlocks.java",
       "src/main/java/net/mcreator/beancraft/init/BeancraftModBlockEntities.java",
       "src/main/java/net/mcreator/beancraft/init/BeancraftModItems.java",
-      "src/main/java/net/mcreator/beancraft/init/BeancraftModEntities.java",
       "src/main/java/net/mcreator/beancraft/init/BeancraftModEntityRenderers.java",
-      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/beancraft/init/BeancraftModEntities.java",
+      "src/main/java/net/mcreator/beancraft/init/BeancraftModTabs.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/java/net/mcreator/beancraft/BeancraftMod.java",
-      "src/main/java/net/mcreator/beancraft/init/BeancraftModTabs.java"
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/beancraft/BeancraftMod.java"
     ]
   },
   "foldersRoot": {
@@ -413,6 +463,10 @@
       },
       {
         "name": "Boss Stuff",
+        "children": []
+      },
+      {
+        "name": "Structures",
         "children": []
       }
     ]

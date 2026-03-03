@@ -33,6 +33,8 @@ public class BeancraftModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(BeancraftModItems.BEAN.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+			tabData.accept(BeancraftModItems.BEAN_DIMENSION.get());
 		}
 	}
 }

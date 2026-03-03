@@ -5,5 +5,7 @@
   "item.beancraft.dirt": "Dirt",
   "item.beancraft.bean_trade_station": "Bean Trade Station",
   "entity.villager.beancraft.semiinfected_bean": "Semiinfected Bean",
-  "item.beancraft.bean_seed_item": "Bean Seed Item"
+  "item.beancraft.bean_seed_item": "Bean Seed Item",
+  "biome.beancraft.grassland": "Grassland",
+  "item.beancraft.bean_dimension": "Bean Dimension Portal Igniter"
 }

@@ -13,6 +13,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.beancraft.item.BeanSeedItemItem;
 import net.mcreator.beancraft.item.BeanItem;
+import net.mcreator.beancraft.item.BeanDimensionItem;
 import net.mcreator.beancraft.BeancraftMod;
 
 import java.util.function.Function;
@@ -29,6 +30,7 @@ public class BeancraftModItems {
 	public static final DeferredItem<Item> BEAN;
 	public static final DeferredItem<Item> BEAN_SEED_STAGE_1;
 	public static final DeferredItem<Item> STOVE;
+	public static final DeferredItem<Item> BEAN_DIMENSION;
 	static {
 		BEANGRASS = block(BeancraftModBlocks.BEANGRASS);
 		DIRT = block(BeancraftModBlocks.DIRT);
@@ -40,6 +42,7 @@ public class BeancraftModItems {
 		BEAN = register("bean", BeanItem::new);
 		BEAN_SEED_STAGE_1 = block(BeancraftModBlocks.BEAN_SEED_STAGE_1);
 		STOVE = block(BeancraftModBlocks.STOVE);
+		BEAN_DIMENSION = register("bean_dimension", BeanDimensionItem::new);
 	}
 
 	// Start of user code block custom items
