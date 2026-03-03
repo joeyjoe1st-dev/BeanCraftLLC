@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "beancraft:item/beenseedtemp"
+    "layer0": "beancraft:item/teddy_32x"
   }
 }

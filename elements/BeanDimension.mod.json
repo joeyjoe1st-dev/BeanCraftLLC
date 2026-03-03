@@ -62,7 +62,7 @@
         "value": "TOOLS"
       }
     ],
-    "texture": "beenseedtemp",
+    "texture": "teddy_32x",
     "portalTexture": "dirt",
     "enablePortal": true
   }
