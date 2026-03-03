@@ -9,8 +9,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/beancraft/entity/TestbossEntity.java",
-          "src/main/java/net/mcreator/beancraft/client/renderer/TestbossRenderer.java",
-          "src/main/resources/assets/beancraft/items/testboss_spawn_egg.json"
+          "src/main/resources/assets/beancraft/items/testboss_spawn_egg.json",
+          "src/main/java/net/mcreator/beancraft/client/renderer/TestbossRenderer.java"
         ]
       },
       "path": "~/Boss Stuff"
@@ -23,12 +23,12 @@
       "registry_name": "beangrass",
       "metadata": {
         "files": [
+          "src/main/resources/assets/beancraft/items/beangrass.json",
           "src/main/resources/assets/beancraft/models/item/beangrass.json",
           "src/main/resources/assets/beancraft/models/block/beangrass.json",
-          "src/main/resources/assets/beancraft/blockstates/beangrass.json",
-          "src/main/resources/data/beancraft/loot_table/blocks/beangrass.json",
           "src/main/java/net/mcreator/beancraft/block/BeangrassBlock.java",
-          "src/main/resources/assets/beancraft/items/beangrass.json"
+          "src/main/resources/data/beancraft/loot_table/blocks/beangrass.json",
+          "src/main/resources/assets/beancraft/blockstates/beangrass.json"
         ]
       },
       "path": "~/Bean_biomes"
@@ -52,12 +52,12 @@
       "registry_name": "dirt",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/beancraft/block/DirtBlock.java",
+          "src/main/resources/data/beancraft/loot_table/blocks/dirt.json",
           "src/main/resources/assets/beancraft/items/dirt.json",
           "src/main/resources/assets/beancraft/blockstates/dirt.json",
-          "src/main/resources/data/beancraft/loot_table/blocks/dirt.json",
-          "src/main/resources/assets/beancraft/models/block/dirt.json",
-          "src/main/java/net/mcreator/beancraft/block/DirtBlock.java",
-          "src/main/resources/assets/beancraft/models/item/dirt.json"
+          "src/main/resources/assets/beancraft/models/item/dirt.json",
+          "src/main/resources/assets/beancraft/models/block/dirt.json"
         ]
       },
       "path": "~/Bean_biomes"
@@ -70,12 +70,12 @@
       "registry_name": "bean_trade_station",
       "metadata": {
         "files": [
-          "src/main/resources/assets/beancraft/items/bean_trade_station.json",
-          "src/main/java/net/mcreator/beancraft/block/BeanTradeStationBlock.java",
-          "src/main/resources/data/beancraft/loot_table/blocks/bean_trade_station.json",
           "src/main/resources/assets/beancraft/models/item/bean_trade_station.json",
+          "src/main/resources/assets/beancraft/models/block/bean_trade_station.json",
           "src/main/resources/assets/beancraft/blockstates/bean_trade_station.json",
-          "src/main/resources/assets/beancraft/models/block/bean_trade_station.json"
+          "src/main/resources/data/beancraft/loot_table/blocks/bean_trade_station.json",
+          "src/main/resources/assets/beancraft/items/bean_trade_station.json",
+          "src/main/java/net/mcreator/beancraft/block/BeanTradeStationBlock.java"
         ]
       },
       "path": "~/Villager"
@@ -203,7 +203,7 @@
     {
       "name": "BeanSeedStage0",
       "type": "block",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "bean_seed_stage_0",
       "metadata": {
@@ -227,7 +227,6 @@
       "registry_name": "bean_seed_stage_3",
       "metadata": {
         "files": [
-          "src/main/resources/data/beancraft/loot_table/blocks/bean_seed_stage_3.json",
           "src/main/java/net/mcreator/beancraft/block/BeanSeedStage3Block.java",
           "src/main/resources/assets/beancraft/items/bean_seed_stage_3.json",
           "src/main/resources/assets/beancraft/models/block/bean_seed_stage_3.json",
@@ -310,7 +309,7 @@
     {
       "name": "BeanSeedStage1",
       "type": "block",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "bean_seed_stage_1",
       "metadata": {
@@ -352,9 +351,9 @@
       "registry_name": "grassland",
       "metadata": {
         "files": [
-          "src/main/resources/data/beancraft/worldgen/placed_feature/grassland_tree.json",
+          "src/main/resources/data/beancraft/worldgen/biome/grassland.json",
           "src/main/resources/data/beancraft/worldgen/configured_feature/grassland_tree.json",
-          "src/main/resources/data/beancraft/worldgen/biome/grassland.json"
+          "src/main/resources/data/beancraft/worldgen/placed_feature/grassland_tree.json"
         ]
       },
       "path": "~/Bean_biomes"
@@ -369,16 +368,16 @@
         "files": [
           "src/main/java/net/mcreator/beancraft/world/teleporter/BeanDimensionTeleporter.java",
           "src/main/resources/assets/beancraft/blockstates/bean_dimension_portal.json",
-          "src/main/resources/assets/beancraft/models/item/bean_dimension.json",
-          "src/main/resources/data/beancraft/dimension_type/bean_dimension.json",
+          "src/main/java/net/mcreator/beancraft/block/BeanDimensionPortalBlock.java",
           "src/main/java/net/mcreator/beancraft/world/teleporter/BeanDimensionPortalShape.java",
           "src/main/java/net/mcreator/beancraft/item/BeanDimensionItem.java",
+          "src/main/resources/assets/beancraft/models/item/bean_dimension.json",
           "src/main/resources/data/beancraft/dimension/bean_dimension.json",
-          "src/main/resources/assets/beancraft/models/block/bean_dimension_portal_ns.json",
           "src/main/resources/assets/beancraft/models/block/bean_dimension_portal_ew.json",
-          "src/main/resources/assets/beancraft/items/bean_dimension.json",
+          "src/main/resources/data/beancraft/dimension_type/bean_dimension.json",
           "src/main/java/net/mcreator/beancraft/world/dimension/BeanDimensionDimension.java",
-          "src/main/java/net/mcreator/beancraft/block/BeanDimensionPortalBlock.java"
+          "src/main/resources/assets/beancraft/items/bean_dimension.json",
+          "src/main/resources/assets/beancraft/models/block/bean_dimension_portal_ns.json"
         ]
       },
       "path": "~/Bean_biomes"
@@ -420,7 +419,13 @@
       "entity.villager.beancraft.semiinfected_bean": "Semiinfected Bean",
       "item.beancraft.bean_seed_item": "Bean Seed Item",
       "biome.beancraft.grassland": "Grassland",
-      "item.beancraft.bean_dimension": "Bean Dimension Portal Igniter"
+      "item.beancraft.bean_dimension": "Bean Dimension Portal Igniter",
+      "item.beancraft.bean_seed_stage_0": "Bean Plant",
+      "item.beancraft.bean_seed_stage_1": "Bean Plant",
+      "item.beancraft.bean_seed_stage_2": "Bean Plant",
+      "item.beancraft.bean_seed_stage_3": "Bean Plant",
+      "item.beancraft.bean": "Bean",
+      "item.beancraft.stove": "Stove"
     }
   },
   "metadata": {
@@ -430,12 +435,12 @@
       "src/main/java/net/mcreator/beancraft/init/BeancraftModBlocks.java",
       "src/main/java/net/mcreator/beancraft/init/BeancraftModBlockEntities.java",
       "src/main/java/net/mcreator/beancraft/init/BeancraftModItems.java",
-      "src/main/java/net/mcreator/beancraft/init/BeancraftModEntityRenderers.java",
       "src/main/java/net/mcreator/beancraft/init/BeancraftModEntities.java",
-      "src/main/java/net/mcreator/beancraft/init/BeancraftModTabs.java",
-      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/beancraft/init/BeancraftModEntityRenderers.java",
       "src/main/resources/pack.mcmeta",
-      "src/main/java/net/mcreator/beancraft/BeancraftMod.java"
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/beancraft/BeancraftMod.java",
+      "src/main/java/net/mcreator/beancraft/init/BeancraftModTabs.java"
     ]
   },
   "foldersRoot": {

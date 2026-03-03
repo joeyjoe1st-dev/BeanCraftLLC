@@ -1,6 +1,13 @@
 package net.mcreator.beancraft.procedures;
 
-import net.neoforged.bus.api.Event;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.level.Level;
+import net.minecraft.core.BlockPos;
+
+import net.mcreator.beancraft.init.BeancraftModBlocks;
 
 public class BeanPlantGrowthTickUpdateProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
@@ -8,10 +15,10 @@ public class BeanPlantGrowthTickUpdateProcedure {
 		BlockState stage1 = Blocks.AIR.defaultBlockState();
 		BlockState stage2 = Blocks.AIR.defaultBlockState();
 		BlockState stage3 = Blocks.AIR.defaultBlockState();
-		stage0 = BeancraftModItems.DELETED_MOD_ELEMENT.get().defaultBlockState();
-		stage1 = BeancraftModItems.DELETED_MOD_ELEMENT.get().defaultBlockState();
-		stage2 = BeancraftModItems.DELETED_MOD_ELEMENT.get().defaultBlockState();
-		stage3 = BeancraftModItems.DELETED_MOD_ELEMENT.get().defaultBlockState();
+		stage0 = BeancraftModBlocks.BEAN_SEED_STAGE_0.get().defaultBlockState();
+		stage1 = BeancraftModBlocks.BEAN_SEED_STAGE_1.get().defaultBlockState();
+		stage2 = BeancraftModBlocks.BEAN_SEED_STAGE_2.get().defaultBlockState();
+		stage3 = BeancraftModBlocks.BEAN_SEED_STAGE_3.get().defaultBlockState();
 		if (getBlockNBTNumber(world, BlockPos.containing(x, y, z), "GrowthTime") <= 0) {
 			if ((world.getBlockState(BlockPos.containing(x, y, z))) == stage0 && stage1.canSurvive(world, BlockPos.containing(x, y, z))) {
 				world.setBlock(BlockPos.containing(x, y, z), stage1, 3);
