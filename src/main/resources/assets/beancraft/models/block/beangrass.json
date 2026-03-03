@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "beancraft:block/dirt",
+    "up": "beancraft:block/grassblocktop",
+    "north": "beancraft:block/grassdirtside",
+    "east": "beancraft:block/grassdirtside",
+    "south": "beancraft:block/grassdirtside",
+    "west": "beancraft:block/grassdirtside",
+    "particle": "beancraft:block/dirt"
+  },
+  "render_type": "solid"
+}

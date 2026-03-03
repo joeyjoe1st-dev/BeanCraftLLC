@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "beancraft:dirt",
+    "beancraft:beangrass",
     "minecraft:waxed_oxidized_cut_copper",
     "minecraft:polished_andesite",
     "minecraft:stripped_warped_stem"

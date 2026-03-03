@@ -2,18 +2,18 @@
   "_fv": 79,
   "_type": "biome",
   "definition": {
-    "name": "Test",
+    "name": "GrassLand",
     "groundBlock": {
-      "value": "Blocks.STRIPPED_WARPED_STEM"
+      "value": "CUSTOM:Beangrass"
     },
     "undergroundBlock": {
-      "value": "Blocks.WAXED_OXIDIZED_CUT_COPPER"
+      "value": "CUSTOM:Dirt"
     },
     "underwaterBlock": {
       "value": "Blocks.GRAVEL"
     },
     "waterColor": {
-      "value": -256,
+      "value": -13421569,
       "falpha": 0.0
     },
     "ambientSound": {

@@ -417,10 +417,7 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "minecraft:stripped_warped_stem",
-                              "Properties": {
-                                "axis": "y"
-                              }
+                              "Name": "beancraft:beangrass"
                             }
                           }
                         },
@@ -445,7 +442,7 @@
                     "then_run": {
                       "type": "minecraft:block",
                       "result_state": {
-                        "Name": "minecraft:waxed_oxidized_cut_copper"
+                        "Name": "beancraft:dirt"
                       }
                     }
                   }
