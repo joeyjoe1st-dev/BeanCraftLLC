@@ -105,6 +105,24 @@
         ]
       },
       "path": "~/Items"
+    },
+    {
+      "name": "Stove",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stove",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beancraft/models/block/stove.json",
+          "src/main/resources/data/beancraft/loot_table/blocks/stove.json",
+          "src/main/resources/assets/beancraft/models/item/stove.json",
+          "src/main/java/net/mcreator/beancraft/block/StoveBlock.java",
+          "src/main/resources/assets/beancraft/items/stove.json",
+          "src/main/resources/assets/beancraft/blockstates/stove.json"
+        ]
+      },
+      "path": "~/Blocks"
     }
   ],
   "variable_elements": [],
@@ -119,7 +137,8 @@
       "item.beancraft.dirt": "Dirt",
       "item.beancraft.bean_trade_station": "Bean Trade Station",
       "entity.villager.beancraft.semiinfected_bean": "Semiinfected Bean",
-      "item.beancraft.bean_seed_item": "Bean Seed Item"
+      "item.beancraft.bean_seed_item": "Bean Seed Item",
+      "item.beancraft.stove": "Stove"
     }
   },
   "metadata": {
@@ -157,6 +176,10 @@
       },
       {
         "name": "Plants",
+        "children": []
+      },
+      {
+        "name": "Blocks",
         "children": []
       }
     ]

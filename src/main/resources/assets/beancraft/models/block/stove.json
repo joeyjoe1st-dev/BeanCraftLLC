@@ -1,0 +1,9 @@
+{
+  "parent": "beancraft:custom/stove",
+  "textures": {
+    "all": "beancraft:block/stiched_texture",
+    "particle": "beancraft:block/stiched_texture",
+    "4": "beancraft:block/stiched_texture"
+  },
+  "render_type": "solid"
+}

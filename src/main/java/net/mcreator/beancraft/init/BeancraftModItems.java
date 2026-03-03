@@ -22,11 +22,13 @@ public class BeancraftModItems {
 	public static final DeferredItem<Item> DIRT;
 	public static final DeferredItem<Item> BEAN_TRADE_STATION;
 	public static final DeferredItem<Item> BEAN_SEED_ITEM;
+	public static final DeferredItem<Item> STOVE;
 	static {
 		BEANGRASS = block(BeancraftModBlocks.BEANGRASS);
 		DIRT = block(BeancraftModBlocks.DIRT);
 		BEAN_TRADE_STATION = block(BeancraftModBlocks.BEAN_TRADE_STATION);
 		BEAN_SEED_ITEM = register("bean_seed_item", BeanSeedItemItem::new);
+		STOVE = block(BeancraftModBlocks.STOVE);
 	}
 
 	// Start of user code block custom items

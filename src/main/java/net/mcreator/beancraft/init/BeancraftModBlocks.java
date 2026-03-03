@@ -9,6 +9,7 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.beancraft.block.StoveBlock;
 import net.mcreator.beancraft.block.DirtBlock;
 import net.mcreator.beancraft.block.BeangrassBlock;
 import net.mcreator.beancraft.block.BeanTradeStationBlock;
@@ -21,10 +22,12 @@ public class BeancraftModBlocks {
 	public static final DeferredBlock<Block> BEANGRASS;
 	public static final DeferredBlock<Block> DIRT;
 	public static final DeferredBlock<Block> BEAN_TRADE_STATION;
+	public static final DeferredBlock<Block> STOVE;
 	static {
 		BEANGRASS = register("beangrass", BeangrassBlock::new);
 		DIRT = register("dirt", DirtBlock::new);
 		BEAN_TRADE_STATION = register("bean_trade_station", BeanTradeStationBlock::new);
+		STOVE = register("stove", StoveBlock::new);
 	}
 
 	// Start of user code block custom blocks
