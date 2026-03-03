@@ -362,6 +362,9 @@
   "tag_elements": {
     "BLOCKS:crops:farmland": [
       "Blocks.FARMLAND"
+    ],
+    "ITEMS:crops:fertilizer": [
+      "Items.DYE#15"
     ]
   },
   "tab_element_order": {},
@@ -420,6 +423,10 @@
           },
           {
             "name": "Blocks",
+            "children": []
+          },
+          {
+            "name": "Bone Meal",
             "children": []
           }
         ]
