@@ -1,0 +1,16 @@
+{
+  "_fv": 79,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Semiinfected Bean",
+    "pointOfInterest": {
+      "value": "CUSTOM:BeanTradeStation"
+    },
+    "actionSound": {
+      "value": "entity.enderdragon.hurt"
+    },
+    "hat": "None",
+    "professionTextureFile": "semi_infected_villager.png",
+    "zombifiedProfessionTextureFile": "semi_infected_villager.png"
+  }
+}

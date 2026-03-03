@@ -3,5 +3,7 @@
   "item.beancraft.beangrass": "Beangrass",
   "item_group.beancraft.bean_craft": "Bean Craft",
   "item.beancraft.dirt": "Dirt",
-  "item.beancraft.bean_trade_station": "Bean Trade Station"
+  "item.beancraft.bean_trade_station": "Bean Trade Station",
+  "entity.villager.beancraft.semiinfected_bean": "Semiinfected Bean",
+  "item.beancraft.bean_seed_item": "Bean Seed Item"
 }

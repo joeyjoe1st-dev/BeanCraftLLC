@@ -79,6 +79,32 @@
         ]
       },
       "path": "~/Villager"
+    },
+    {
+      "name": "SemiinfectedBean",
+      "type": "villagerprofession",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "semiinfected_bean",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Villager"
+    },
+    {
+      "name": "BeanSeedItem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bean_seed_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beancraft/items/bean_seed_item.json",
+          "src/main/java/net/mcreator/beancraft/item/BeanSeedItemItem.java",
+          "src/main/resources/assets/beancraft/models/item/bean_seed_item.json"
+        ]
+      },
+      "path": "~/Items"
     }
   ],
   "variable_elements": [],
@@ -91,19 +117,23 @@
       "item.beancraft.beangrass": "Beangrass",
       "item_group.beancraft.bean_craft": "Bean Craft",
       "item.beancraft.dirt": "Dirt",
-      "item.beancraft.bean_trade_station": "Bean Trade Station"
+      "item.beancraft.bean_trade_station": "Bean Trade Station",
+      "entity.villager.beancraft.semiinfected_bean": "Semiinfected Bean",
+      "item.beancraft.bean_seed_item": "Bean Seed Item"
     }
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/beancraft/init/BeancraftModVillagerProfessions.java",
+      "src/main/resources/data/minecraft/tags/point_of_interest_type/acquirable_job_site.json",
       "src/main/java/net/mcreator/beancraft/init/BeancraftModBlocks.java",
       "src/main/java/net/mcreator/beancraft/init/BeancraftModItems.java",
-      "src/main/java/net/mcreator/beancraft/init/BeancraftModEntities.java",
       "src/main/java/net/mcreator/beancraft/init/BeancraftModEntityRenderers.java",
-      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/beancraft/init/BeancraftModEntities.java",
+      "src/main/java/net/mcreator/beancraft/init/BeancraftModTabs.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/java/net/mcreator/beancraft/BeancraftMod.java",
-      "src/main/java/net/mcreator/beancraft/init/BeancraftModTabs.java"
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/beancraft/BeancraftMod.java"
     ]
   },
   "foldersRoot": {
@@ -119,6 +149,14 @@
       },
       {
         "name": "Villager",
+        "children": []
+      },
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Plants",
         "children": []
       }
     ]

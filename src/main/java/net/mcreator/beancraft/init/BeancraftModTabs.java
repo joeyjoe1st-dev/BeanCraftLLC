@@ -20,5 +20,6 @@ public class BeancraftModTabs {
 				tabData.accept(BeancraftModBlocks.BEANGRASS.get().asItem());
 				tabData.accept(BeancraftModBlocks.DIRT.get().asItem());
 				tabData.accept(BeancraftModBlocks.BEAN_TRADE_STATION.get().asItem());
+				tabData.accept(BeancraftModItems.BEAN_SEED_ITEM.get());
 			}).withSearchBar().build());
 }

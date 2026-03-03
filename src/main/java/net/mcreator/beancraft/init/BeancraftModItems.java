@@ -11,6 +11,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.beancraft.item.BeanSeedItemItem;
 import net.mcreator.beancraft.BeancraftMod;
 
 import java.util.function.Function;
@@ -20,10 +21,12 @@ public class BeancraftModItems {
 	public static final DeferredItem<Item> BEANGRASS;
 	public static final DeferredItem<Item> DIRT;
 	public static final DeferredItem<Item> BEAN_TRADE_STATION;
+	public static final DeferredItem<Item> BEAN_SEED_ITEM;
 	static {
 		BEANGRASS = block(BeancraftModBlocks.BEANGRASS);
 		DIRT = block(BeancraftModBlocks.DIRT);
 		BEAN_TRADE_STATION = block(BeancraftModBlocks.BEAN_TRADE_STATION);
+		BEAN_SEED_ITEM = register("bean_seed_item", BeanSeedItemItem::new);
 	}
 
 	// Start of user code block custom items
