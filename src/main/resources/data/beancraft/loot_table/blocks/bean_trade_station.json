@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "beancraft:blocks/bean_trade_station",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "beancraft:bean_trade_station"
+        }
+      ]
+    }
+  ]
+}

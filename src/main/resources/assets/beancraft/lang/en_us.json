@@ -1,8 +1,7 @@
 {
-  "biome.beancraft.test": "GrassLand",
-  "item.beancraft.dimensiontest": "PortalBean ",
   "entity.beancraft.testboss": "Testboss",
   "item.beancraft.beangrass": "Beangrass",
   "item_group.beancraft.bean_craft": "Bean Craft",
-  "item.beancraft.dirt": "Dirt"
+  "item.beancraft.dirt": "Dirt",
+  "item.beancraft.bean_trade_station": "Bean Trade Station"
 }

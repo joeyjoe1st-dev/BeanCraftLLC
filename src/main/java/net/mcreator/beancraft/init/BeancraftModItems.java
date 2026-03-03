@@ -11,20 +11,19 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
-import net.mcreator.beancraft.item.DIMENSIONTESTItem;
 import net.mcreator.beancraft.BeancraftMod;
 
 import java.util.function.Function;
 
 public class BeancraftModItems {
 	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(BeancraftMod.MODID);
-	public static final DeferredItem<Item> DIMENSIONTEST;
 	public static final DeferredItem<Item> BEANGRASS;
 	public static final DeferredItem<Item> DIRT;
+	public static final DeferredItem<Item> BEAN_TRADE_STATION;
 	static {
-		DIMENSIONTEST = register("dimensiontest", DIMENSIONTESTItem::new);
 		BEANGRASS = block(BeancraftModBlocks.BEANGRASS);
 		DIRT = block(BeancraftModBlocks.DIRT);
+		BEAN_TRADE_STATION = block(BeancraftModBlocks.BEAN_TRADE_STATION);
 	}
 
 	// Start of user code block custom items

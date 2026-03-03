@@ -1,0 +1,9 @@
+{
+  "parent": "beancraft:custom/eggcrafter64",
+  "textures": {
+    "all": "beancraft:block/bean_attack",
+    "particle": "beancraft:block/bean_attack",
+    "4": "beancraft:block/"
+  },
+  "render_type": "solid"
+}

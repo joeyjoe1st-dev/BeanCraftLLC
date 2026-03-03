@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "beancraft:block/bean_trade_station"
+    }
+  }
+}
