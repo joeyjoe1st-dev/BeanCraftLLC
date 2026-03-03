@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "beancraft:bean_camp",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 14,
+    "separation": 12,
+    "salt": 552308134
+  }
+}

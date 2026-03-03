@@ -1,0 +1,29 @@
+{
+  "name": "beancraft:bean_camp",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "beancraft:bean_camp",
+        "projection": "terrain_matching",
+        "processors": {
+          "processors": [
+            {
+              "processor_type": "minecraft:block_ignore",
+              "blocks": [
+                {
+                  "Name": "minecraft:structure_block"
+                },
+                {
+                  "Name": "minecraft:water"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
