@@ -9,9 +9,7 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.Block;
 
-import net.mcreator.beancraft.block.DirtBlock;
-import net.mcreator.beancraft.block.BeangrassBlock;
-import net.mcreator.beancraft.block.BeanTradeStationBlock;
+import net.mcreator.beancraft.block.*;
 import net.mcreator.beancraft.BeancraftMod;
 
 import java.util.function.Function;
@@ -21,10 +19,18 @@ public class BeancraftModBlocks {
 	public static final DeferredBlock<Block> BEANGRASS;
 	public static final DeferredBlock<Block> DIRT;
 	public static final DeferredBlock<Block> BEAN_TRADE_STATION;
+	public static final DeferredBlock<Block> BEAN_SEED_STAGE_0;
+	public static final DeferredBlock<Block> BEAN_SEED_STAGE_1;
+	public static final DeferredBlock<Block> BEAN_SEED_STAGE_2;
+	public static final DeferredBlock<Block> BEAN_SEED_STAGE_3;
 	static {
 		BEANGRASS = register("beangrass", BeangrassBlock::new);
 		DIRT = register("dirt", DirtBlock::new);
 		BEAN_TRADE_STATION = register("bean_trade_station", BeanTradeStationBlock::new);
+		BEAN_SEED_STAGE_0 = register("bean_seed_stage_0", BeanSeedStage0Block::new);
+		BEAN_SEED_STAGE_1 = register("bean_seed_stage_1", BeanSeedStage1Block::new);
+		BEAN_SEED_STAGE_2 = register("bean_seed_stage_2", BeanSeedStage2Block::new);
+		BEAN_SEED_STAGE_3 = register("bean_seed_stage_3", BeanSeedStage3Block::new);
 	}
 
 	// Start of user code block custom blocks

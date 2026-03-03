@@ -99,12 +99,232 @@
       "registry_name": "bean_seed_item",
       "metadata": {
         "files": [
-          "src/main/resources/assets/beancraft/items/bean_seed_item.json",
           "src/main/java/net/mcreator/beancraft/item/BeanSeedItemItem.java",
-          "src/main/resources/assets/beancraft/models/item/bean_seed_item.json"
+          "src/main/resources/assets/beancraft/models/item/bean_seed_item.json",
+          "src/main/resources/assets/beancraft/items/bean_seed_item.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Plants/Seeds"
+    },
+    {
+      "name": "BeanPlantBlockValidPlacementCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bean_plant_block_valid_placement_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/beancraft/procedures/BeanPlantBlockValidPlacementConditionProcedure.java"
+        ]
+      },
+      "path": "~/Plants/Blocks"
+    },
+    {
+      "name": "BeanPlantBlockAdded",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bean_plant_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/beancraft/procedures/BeanPlantBlockAddedProcedure.java"
+        ]
+      },
+      "path": "~/Plants/Blocks"
+    },
+    {
+      "name": "BeanSeedStage0",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bean_seed_stage_0",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beancraft/block/entity/BeanSeedStage0BlockEntity.java",
+          "src/main/resources/data/beancraft/loot_table/blocks/bean_seed_stage_0.json",
+          "src/main/resources/assets/beancraft/models/item/bean_seed_stage_0.json",
+          "src/main/resources/assets/beancraft/models/block/bean_seed_stage_0.json",
+          "src/main/java/net/mcreator/beancraft/block/BeanSeedStage0Block.java",
+          "src/main/resources/assets/beancraft/blockstates/bean_seed_stage_0.json",
+          "src/main/resources/assets/beancraft/items/bean_seed_stage_0.json"
+        ]
+      },
+      "path": "~/Plants/Blocks"
+    },
+    {
+      "name": "BeanSeedItemRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bean_seed_item_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/beancraft/procedures/BeanSeedItemRightclickedOnBlockProcedure.java"
+        ]
+      },
+      "path": "~/Plants/Seeds"
+    },
+    {
+      "name": "Bean",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bean",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beancraft/items/bean.json",
+          "src/main/resources/assets/beancraft/models/item/bean.json",
+          "src/main/java/net/mcreator/beancraft/item/BeanItem.java"
+        ]
+      },
+      "path": "~/Plants/Food"
+    },
+    {
+      "name": "BeanSeedStage1",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bean_seed_stage_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beancraft/models/block/bean_seed_stage_1.json",
+          "src/main/resources/assets/beancraft/blockstates/bean_seed_stage_1.json",
+          "src/main/resources/data/beancraft/loot_table/blocks/bean_seed_stage_1.json",
+          "src/main/resources/assets/beancraft/models/item/bean_seed_stage_1.json",
+          "src/main/java/net/mcreator/beancraft/block/entity/BeanSeedStage1BlockEntity.java",
+          "src/main/resources/assets/beancraft/items/bean_seed_stage_1.json",
+          "src/main/java/net/mcreator/beancraft/block/BeanSeedStage1Block.java"
+        ]
+      },
+      "path": "~/Plants/Blocks"
+    },
+    {
+      "name": "BeanSeedStage2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bean_seed_stage_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beancraft/block/BeanSeedStage2Block.java",
+          "src/main/resources/assets/beancraft/models/item/bean_seed_stage_2.json",
+          "src/main/resources/assets/beancraft/items/bean_seed_stage_2.json",
+          "src/main/java/net/mcreator/beancraft/block/entity/BeanSeedStage2BlockEntity.java",
+          "src/main/resources/assets/beancraft/models/block/bean_seed_stage_2.json",
+          "src/main/resources/data/beancraft/loot_table/blocks/bean_seed_stage_2.json",
+          "src/main/resources/assets/beancraft/blockstates/bean_seed_stage_2.json"
+        ]
+      },
+      "path": "~/Plants/Blocks"
+    },
+    {
+      "name": "BeanSeedStage3",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bean_seed_stage_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beancraft/loot_table/blocks/bean_seed_stage_3.json",
+          "src/main/java/net/mcreator/beancraft/block/BeanSeedStage3Block.java",
+          "src/main/resources/assets/beancraft/items/bean_seed_stage_3.json",
+          "src/main/resources/assets/beancraft/models/block/bean_seed_stage_3.json",
+          "src/main/resources/assets/beancraft/models/item/bean_seed_stage_3.json",
+          "src/main/java/net/mcreator/beancraft/block/entity/BeanSeedStage3BlockEntity.java",
+          "src/main/resources/assets/beancraft/blockstates/bean_seed_stage_3.json"
+        ]
+      },
+      "path": "~/Plants/Blocks"
+    },
+    {
+      "name": "BeanPlantGrowthTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bean_plant_growth_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/beancraft/procedures/BeanPlantGrowthTickUpdateProcedure.java"
+        ]
+      },
+      "path": "~/Plants/Seeds"
     }
   ],
   "variable_elements": [],
@@ -119,7 +339,12 @@
       "item.beancraft.dirt": "Dirt",
       "item.beancraft.bean_trade_station": "Bean Trade Station",
       "entity.villager.beancraft.semiinfected_bean": "Semiinfected Bean",
-      "item.beancraft.bean_seed_item": "Bean Seed Item"
+      "item.beancraft.bean_seed_item": "Bean Seed Item",
+      "item.beancraft.bean_seed_stage_0": "Bean Plant",
+      "item.beancraft.bean": "Bean",
+      "item.beancraft.bean_seed_stage_1": "Bean Plant",
+      "item.beancraft.bean_seed_stage_2": "Bean Plant",
+      "item.beancraft.bean_seed_stage_3": "Bean Plant"
     }
   },
   "metadata": {
@@ -127,13 +352,14 @@
       "src/main/java/net/mcreator/beancraft/init/BeancraftModVillagerProfessions.java",
       "src/main/resources/data/minecraft/tags/point_of_interest_type/acquirable_job_site.json",
       "src/main/java/net/mcreator/beancraft/init/BeancraftModBlocks.java",
+      "src/main/java/net/mcreator/beancraft/init/BeancraftModBlockEntities.java",
       "src/main/java/net/mcreator/beancraft/init/BeancraftModItems.java",
-      "src/main/java/net/mcreator/beancraft/init/BeancraftModEntityRenderers.java",
       "src/main/java/net/mcreator/beancraft/init/BeancraftModEntities.java",
-      "src/main/java/net/mcreator/beancraft/init/BeancraftModTabs.java",
-      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/beancraft/init/BeancraftModEntityRenderers.java",
       "src/main/resources/pack.mcmeta",
-      "src/main/java/net/mcreator/beancraft/BeancraftMod.java"
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/beancraft/BeancraftMod.java",
+      "src/main/java/net/mcreator/beancraft/init/BeancraftModTabs.java"
     ]
   },
   "foldersRoot": {
@@ -157,7 +383,20 @@
       },
       {
         "name": "Plants",
-        "children": []
+        "children": [
+          {
+            "name": "Seeds",
+            "children": []
+          },
+          {
+            "name": "Food",
+            "children": []
+          },
+          {
+            "name": "Blocks",
+            "children": []
+          }
+        ]
       }
     ]
   },

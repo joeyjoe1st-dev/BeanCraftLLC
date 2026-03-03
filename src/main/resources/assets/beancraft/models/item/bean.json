@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "beancraft:item/pixil-frame-0"
+    "layer0": "beancraft:item/pixil-frame-0_1"
   }
 }

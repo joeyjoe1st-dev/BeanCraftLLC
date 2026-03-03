@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "beancraft:block/beanstage2",
+    "particle": "beancraft:block/beanstage2"
+  },
+  "render_type": "cutout"
+}
