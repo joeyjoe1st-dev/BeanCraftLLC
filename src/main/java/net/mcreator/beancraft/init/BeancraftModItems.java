@@ -31,6 +31,7 @@ public class BeancraftModItems {
 	public static final DeferredItem<Item> BEAN_SEED_STAGE_1;
 	public static final DeferredItem<Item> STOVE;
 	public static final DeferredItem<Item> BEAN_DIMENSION;
+	public static final DeferredItem<Item> SILVER_ORE;
 	static {
 		BEANGRASS = block(BeancraftModBlocks.BEANGRASS);
 		DIRT = block(BeancraftModBlocks.DIRT);
@@ -43,6 +44,7 @@ public class BeancraftModItems {
 		BEAN_SEED_STAGE_1 = block(BeancraftModBlocks.BEAN_SEED_STAGE_1);
 		STOVE = block(BeancraftModBlocks.STOVE);
 		BEAN_DIMENSION = register("bean_dimension", BeanDimensionItem::new);
+		SILVER_ORE = block(BeancraftModBlocks.SILVER_ORE);
 	}
 
 	// Start of user code block custom items

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "beancraft:block/silverore",
+    "up": "beancraft:block/silverore",
+    "north": "beancraft:block/silverore",
+    "east": "beancraft:block/silverore",
+    "south": "beancraft:block/silverore",
+    "west": "beancraft:block/silverore",
+    "particle": "beancraft:block/silverore"
+  },
+  "render_type": "solid"
+}

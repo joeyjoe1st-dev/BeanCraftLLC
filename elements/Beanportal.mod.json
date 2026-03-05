@@ -1,0 +1,72 @@
+{
+  "_fv": 79,
+  "_type": "structure",
+  "definition": {
+    "structure": "bean_portal",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      },
+      {
+        "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "Blocks.GRASS"
+      },
+      {
+        "value": "Blocks.GRAVEL"
+      },
+      {
+        "value": "Blocks.GRASS_PATH"
+      },
+      {
+        "value": "Blocks.LEAVES#0"
+      }
+    ],
+    "spacing": 71,
+    "separation": 20,
+    "restrictionBiomes": [
+      {
+        "value": "beaches"
+      },
+      {
+        "value": "badlands"
+      },
+      {
+        "value": "bamboo_jungle"
+      },
+      {
+        "value": "basalt_deltas"
+      },
+      {
+        "value": "roofed_forest"
+      },
+      {
+        "value": "cold_ocean"
+      },
+      {
+        "value": "jungle"
+      },
+      {
+        "value": "meadow"
+      },
+      {
+        "value": "extreme_hills_with_trees"
+      },
+      {
+        "value": "mountains"
+      }
+    ],
+    "terrainAdaptation": "none",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": true,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 120,
+    "startHeightMax": 150,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
+  }
+}

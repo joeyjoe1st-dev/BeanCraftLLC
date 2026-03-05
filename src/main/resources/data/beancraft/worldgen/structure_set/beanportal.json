@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "beancraft:beanportal",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 71,
+    "separation": 20,
+    "salt": 939772447
+  }
+}

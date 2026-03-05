@@ -25,6 +25,7 @@ public class BeancraftModBlocks {
 	public static final DeferredBlock<Block> BEAN_SEED_STAGE_1;
 	public static final DeferredBlock<Block> STOVE;
 	public static final DeferredBlock<Block> BEAN_DIMENSION_PORTAL;
+	public static final DeferredBlock<Block> SILVER_ORE;
 	static {
 		BEANGRASS = register("beangrass", BeangrassBlock::new);
 		DIRT = register("dirt", DirtBlock::new);
@@ -35,6 +36,7 @@ public class BeancraftModBlocks {
 		BEAN_SEED_STAGE_1 = register("bean_seed_stage_1", BeanSeedStage1Block::new);
 		STOVE = register("stove", StoveBlock::new);
 		BEAN_DIMENSION_PORTAL = register("bean_dimension_portal", BeanDimensionPortalBlock::new);
+		SILVER_ORE = register("silver_ore", SilverOreBlock::new);
 	}
 
 	// Start of user code block custom blocks
