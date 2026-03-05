@@ -8,6 +8,8 @@ import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.api.distmarker.Dist;
 
+import net.minecraft.client.renderer.entity.ThrownItemRenderer;
+
 import net.mcreator.beancraft.client.renderer.TestbossRenderer;
 
 @EventBusSubscriber(Dist.CLIENT)
@@ -15,5 +17,6 @@ public class BeancraftModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(BeancraftModEntities.TESTBOSS.get(), TestbossRenderer::new);
+		event.registerEntityRenderer(BeancraftModEntities.TEDDY.get(), ThrownItemRenderer::new);
 	}
 }

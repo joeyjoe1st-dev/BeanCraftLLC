@@ -18,6 +18,7 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.beancraft.entity.TestbossEntity;
+import net.mcreator.beancraft.entity.TeddyEntity;
 import net.mcreator.beancraft.BeancraftMod;
 
 @EventBusSubscriber
@@ -27,6 +28,8 @@ public class BeancraftModEntities {
 			EntityType.Builder.<TestbossEntity>of(TestbossEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.ridingOffset(-0.6f).sized(0.6f, 1.8f));
+	public static final DeferredHolder<EntityType<?>, EntityType<TeddyEntity>> TEDDY = register("teddy",
+			EntityType.Builder.<TeddyEntity>of(TeddyEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities

@@ -463,6 +463,121 @@
         ]
       },
       "path": "~/Blocks"
+    },
+    {
+      "name": "Teddysoul",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teddysoul",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beancraft/item/TeddysoulItem.java",
+          "src/main/resources/assets/beancraft/models/item/teddysoul.json",
+          "src/main/resources/assets/beancraft/items/teddysoul.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Teddyflesh",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teddyflesh",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beancraft/item/TeddyfleshItem.java",
+          "src/main/resources/assets/beancraft/models/item/teddyflesh.json",
+          "src/main/resources/assets/beancraft/items/teddyflesh.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Stuffing",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stuffing",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beancraft/item/StuffingItem.java",
+          "src/main/resources/assets/beancraft/items/stuffing.json",
+          "src/main/resources/assets/beancraft/models/item/stuffing.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Brownfabric",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brownfabric",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beancraft/items/brownfabric.json",
+          "src/main/java/net/mcreator/beancraft/item/BrownfabricItem.java",
+          "src/main/resources/assets/beancraft/models/item/brownfabric.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Brownfabricrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brownfabricrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beancraft/advancement/recipes/brownfabricrecipe.json",
+          "src/main/resources/data/beancraft/recipe/brownfabricrecipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Stuffingrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stuffingrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beancraft/recipe/stuffingrecipe.json",
+          "src/main/resources/data/beancraft/advancement/recipes/stuffingrecipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Teddyfleshrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teddyfleshrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beancraft/recipe/teddyfleshrecipe.json",
+          "src/main/resources/data/beancraft/advancement/recipes/teddyfleshrecipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Teddy",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teddy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beancraft/entity/TeddyEntity.java"
+        ]
+      },
+      "path": "~/Items"
     }
   ],
   "variable_elements": [],
@@ -570,7 +685,11 @@
       "item.beancraft.bean": "Bean",
       "item.beancraft.silver_ore": "Silver Ore",
       "item.beancraft.teddy_workbench": "Teddy Workbench",
-      "item.beancraft.teddyworkbench": "Teddyworkbench"
+      "item.beancraft.teddyworkbench": "Teddyworkbench",
+      "item.beancraft.teddysoul": "Teddysoul",
+      "item.beancraft.teddyflesh": "Teddyflesh",
+      "item.beancraft.stuffing": "Stuffing",
+      "item.beancraft.brownfabric": "Brownfabric"
     }
   },
   "metadata": {
@@ -634,6 +753,10 @@
       },
       {
         "name": "Boss Stuff",
+        "children": []
+      },
+      {
+        "name": "Recipes",
         "children": []
       }
     ]

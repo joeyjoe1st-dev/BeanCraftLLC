@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": "minecraft:string",
+    "b": "minecraft:white_wool"
+  },
+  "result": {
+    "id": "beancraft:stuffing",
+    "count": 1
+  }
+}

@@ -11,9 +11,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
-import net.mcreator.beancraft.item.BeanSeedItemItem;
-import net.mcreator.beancraft.item.BeanItem;
-import net.mcreator.beancraft.item.BeanDimensionItem;
+import net.mcreator.beancraft.item.*;
 import net.mcreator.beancraft.BeancraftMod;
 
 import java.util.function.Function;
@@ -33,6 +31,10 @@ public class BeancraftModItems {
 	public static final DeferredItem<Item> BEAN_DIMENSION;
 	public static final DeferredItem<Item> SILVER_ORE;
 	public static final DeferredItem<Item> TEDDYWORKBENCH;
+	public static final DeferredItem<Item> TEDDYSOUL;
+	public static final DeferredItem<Item> TEDDYFLESH;
+	public static final DeferredItem<Item> STUFFING;
+	public static final DeferredItem<Item> BROWNFABRIC;
 	static {
 		BEANGRASS = block(BeancraftModBlocks.BEANGRASS);
 		DIRT = block(BeancraftModBlocks.DIRT);
@@ -47,6 +49,10 @@ public class BeancraftModItems {
 		BEAN_DIMENSION = register("bean_dimension", BeanDimensionItem::new);
 		SILVER_ORE = block(BeancraftModBlocks.SILVER_ORE);
 		TEDDYWORKBENCH = block(BeancraftModBlocks.TEDDYWORKBENCH);
+		TEDDYSOUL = register("teddysoul", TeddysoulItem::new);
+		TEDDYFLESH = register("teddyflesh", TeddyfleshItem::new);
+		STUFFING = register("stuffing", StuffingItem::new);
+		BROWNFABRIC = register("brownfabric", BrownfabricItem::new);
 	}
 
 	// Start of user code block custom items

@@ -16,5 +16,9 @@
   "item.beancraft.bean": "Bean",
   "item.beancraft.silver_ore": "Silver Ore",
   "item.beancraft.teddy_workbench": "Teddy Workbench",
-  "item.beancraft.teddyworkbench": "Teddyworkbench"
+  "item.beancraft.teddyworkbench": "Teddyworkbench",
+  "item.beancraft.teddysoul": "Teddysoul",
+  "item.beancraft.teddyflesh": "Teddyflesh",
+  "item.beancraft.stuffing": "Stuffing",
+  "item.beancraft.brownfabric": "Brownfabric"
 }
