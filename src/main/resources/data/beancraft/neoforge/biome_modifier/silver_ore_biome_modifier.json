@@ -1,8 +1,6 @@
 {
   "type": "neoforge:add_features",
-  "biomes": {
-    "type": "neoforge:any"
-  },
+  "biomes": "#beancraft:orebeancraft",
   "features": "beancraft:silver_ore",
   "step": "underground_ores"
 }

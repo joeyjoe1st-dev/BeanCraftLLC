@@ -136,7 +136,11 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "generateFeature": true,
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "#beancraft:orebeancraft"
+      }
+    ],
     "blocksToReplace": [
       {
         "value": "TAG:stone_ore_replaceables"
@@ -151,7 +155,7 @@
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 8,
-    "minGenerateHeight": 0,
-    "maxGenerateHeight": 63
+    "minGenerateHeight": 5,
+    "maxGenerateHeight": 5
   }
 }
