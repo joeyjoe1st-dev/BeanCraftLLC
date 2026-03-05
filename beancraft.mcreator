@@ -445,6 +445,24 @@
         ]
       },
       "path": "~/Blocks"
+    },
+    {
+      "name": "Teddyworkbench",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teddyworkbench",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beancraft/items/teddyworkbench.json",
+          "src/main/resources/assets/beancraft/models/item/teddyworkbench.json",
+          "src/main/resources/assets/beancraft/blockstates/teddyworkbench.json",
+          "src/main/resources/assets/beancraft/models/block/teddyworkbench.json",
+          "src/main/resources/data/beancraft/loot_table/blocks/teddyworkbench.json",
+          "src/main/java/net/mcreator/beancraft/block/TeddyworkbenchBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
     }
   ],
   "variable_elements": [],
@@ -550,7 +568,9 @@
       "item.beancraft.bean_seed_stage_3": "Bean Plant",
       "item.beancraft.stove": "Stove",
       "item.beancraft.bean": "Bean",
-      "item.beancraft.silver_ore": "Silver Ore"
+      "item.beancraft.silver_ore": "Silver Ore",
+      "item.beancraft.teddy_workbench": "Teddy Workbench",
+      "item.beancraft.teddyworkbench": "Teddyworkbench"
     }
   },
   "metadata": {

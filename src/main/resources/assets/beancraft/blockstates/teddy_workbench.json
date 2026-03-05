@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "beancraft:block/teddy_workbench",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "beancraft:block/teddy_workbench"
+    },
+    "axis=z": {
+      "model": "beancraft:block/teddy_workbench",
+      "x": 90
+    }
+  }
+}

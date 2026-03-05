@@ -1,0 +1,9 @@
+{
+  "parent": "beancraft:custom/teddy_workbench",
+  "textures": {
+    "all": "beancraft:block/teddyworkbenchtexture",
+    "particle": "beancraft:block/teddyworkbenchtexture",
+    "2": "beancraft:block/teddyworkbenchtexture"
+  },
+  "render_type": "solid"
+}
