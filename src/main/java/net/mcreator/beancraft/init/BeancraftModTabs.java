@@ -27,6 +27,7 @@ public class BeancraftModTabs {
 				tabData.accept(BeancraftModBlocks.BEAN_TRADE_STATION.get().asItem());
 				tabData.accept(BeancraftModItems.BEAN_SEED_ITEM.get());
 				tabData.accept(BeancraftModItems.BEAN.get());
+				tabData.accept(BeancraftModItems.TEDDY_THROWABLE.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

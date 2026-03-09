@@ -35,6 +35,7 @@ public class BeancraftModItems {
 	public static final DeferredItem<Item> TEDDYFLESH;
 	public static final DeferredItem<Item> STUFFING;
 	public static final DeferredItem<Item> BROWNFABRIC;
+	public static final DeferredItem<Item> TEDDY_THROWABLE;
 	static {
 		BEANGRASS = block(BeancraftModBlocks.BEANGRASS);
 		DIRT = block(BeancraftModBlocks.DIRT);
@@ -53,6 +54,7 @@ public class BeancraftModItems {
 		TEDDYFLESH = register("teddyflesh", TeddyfleshItem::new);
 		STUFFING = register("stuffing", StuffingItem::new);
 		BROWNFABRIC = register("brownfabric", BrownfabricItem::new);
+		TEDDY_THROWABLE = register("teddy_throwable", TeddyThrowableItem::new);
 	}
 
 	// Start of user code block custom items

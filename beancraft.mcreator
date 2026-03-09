@@ -578,6 +578,22 @@
         ]
       },
       "path": "~/Items"
+    },
+    {
+      "name": "TeddyThrowable",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teddy_throwable",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beancraft/models/item/teddy_throwable_gui.json",
+          "src/main/resources/assets/beancraft/models/item/teddy_throwable.json",
+          "src/main/java/net/mcreator/beancraft/item/TeddyThrowableItem.java",
+          "src/main/resources/assets/beancraft/items/teddy_throwable.json"
+        ]
+      },
+      "path": "~/Items"
     }
   ],
   "variable_elements": [],
@@ -689,7 +705,8 @@
       "item.beancraft.teddysoul": "Teddysoul",
       "item.beancraft.teddyflesh": "Teddyflesh",
       "item.beancraft.stuffing": "Stuffing",
-      "item.beancraft.brownfabric": "Brownfabric"
+      "item.beancraft.brownfabric": "Brownfabric",
+      "item.beancraft.teddy_throwable": "Teddy Throwable"
     }
   },
   "metadata": {
