@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "beancraft:block/false_bean_dirt_block"
+    }
+  }
+}

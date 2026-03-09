@@ -594,6 +594,78 @@
         ]
       },
       "path": "~/Items"
+    },
+    {
+      "name": "FalseBeanGrassBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "false_bean_grass_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beancraft/items/false_bean_grass_block.json",
+          "src/main/resources/assets/beancraft/models/block/false_bean_grass_block.json",
+          "src/main/java/net/mcreator/beancraft/block/FalseBeanGrassBlockBlock.java",
+          "src/main/resources/data/beancraft/loot_table/blocks/false_bean_grass_block.json",
+          "src/main/resources/assets/beancraft/blockstates/false_bean_grass_block.json",
+          "src/main/resources/assets/beancraft/models/item/false_bean_grass_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "FalseBeanDirtBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "false_bean_dirt_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beancraft/block/FalseBeanDirtBlockBlock.java",
+          "src/main/resources/assets/beancraft/models/block/false_bean_dirt_block.json",
+          "src/main/resources/assets/beancraft/items/false_bean_dirt_block.json",
+          "src/main/resources/assets/beancraft/blockstates/false_bean_dirt_block.json",
+          "src/main/resources/data/beancraft/loot_table/blocks/false_bean_dirt_block.json",
+          "src/main/resources/assets/beancraft/models/item/false_bean_dirt_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "FalseBeanBiome",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "false_bean_biome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beancraft/worldgen/configured_feature/false_bean_biome_tree.json",
+          "src/main/java/net/mcreator/beancraft/world/features/treedecorators/FalseBeanBiomeFruitDecorator.java",
+          "src/main/resources/data/beancraft/worldgen/placed_feature/false_bean_biome_tree.json",
+          "src/main/java/net/mcreator/beancraft/world/features/treedecorators/FalseBeanBiomeLeaveDecorator.java",
+          "src/main/resources/data/beancraft/worldgen/biome/false_bean_biome.json",
+          "src/main/java/net/mcreator/beancraft/world/features/treedecorators/FalseBeanBiomeTrunkDecorator.java"
+        ]
+      },
+      "path": "~/Bean_biomes"
+    },
+    {
+      "name": "FalseBeanLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "false_bean_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beancraft/loot_table/blocks/false_bean_leaves.json",
+          "src/main/java/net/mcreator/beancraft/block/FalseBeanLeavesBlock.java",
+          "src/main/resources/assets/beancraft/models/item/false_bean_leaves.json",
+          "src/main/resources/assets/beancraft/blockstates/false_bean_leaves.json",
+          "src/main/resources/assets/beancraft/models/block/false_bean_leaves.json",
+          "src/main/resources/assets/beancraft/items/false_bean_leaves.json"
+        ]
+      },
+      "path": "~/Blocks"
     }
   ],
   "variable_elements": [],
@@ -603,6 +675,8 @@
       "~CUSTOM:Grassland"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:FalseBeanGrassBlock",
+      "~CUSTOM:FalseBeanDirtBlock",
       "~CUSTOM:Beangrass",
       "~Blocks.STONE#0",
       "~CUSTOM:Dirt"
@@ -706,7 +780,11 @@
       "item.beancraft.teddyflesh": "Teddyflesh",
       "item.beancraft.stuffing": "Stuffing",
       "item.beancraft.brownfabric": "Brownfabric",
-      "item.beancraft.teddy_throwable": "Teddy Throwable"
+      "item.beancraft.teddy_throwable": "Teddy Throwable",
+      "item.beancraft.false_bean_grass_block": "False Bean Grass Block",
+      "item.beancraft.false_bean_dirt_block": "False Bean Dirt Block",
+      "biome.beancraft.false_bean_biome": "False Bean Biome",
+      "item.beancraft.false_bean_leaves": "False Bean Leaves"
     }
   },
   "metadata": {
@@ -718,6 +796,7 @@
       "src/main/java/net/mcreator/beancraft/init/BeancraftModItems.java",
       "src/main/java/net/mcreator/beancraft/init/BeancraftModEntityRenderers.java",
       "src/main/java/net/mcreator/beancraft/init/BeancraftModEntities.java",
+      "src/main/resources/META-INF/accesstransformer.cfg",
       "src/main/java/net/mcreator/beancraft/init/BeancraftModTabs.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/resources/pack.mcmeta",
