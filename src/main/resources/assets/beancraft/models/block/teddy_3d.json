@@ -1,0 +1,9 @@
+{
+  "parent": "beancraft:custom/teddyprojectile3d",
+  "textures": {
+    "all": "beancraft:block/teddyprojectile3d",
+    "particle": "beancraft:block/teddyprojectile3d",
+    "0": "beancraft:block/teddyprojectile3d"
+  },
+  "render_type": "cutout"
+}

@@ -21,5 +21,10 @@
   "item.beancraft.teddyflesh": "Teddyflesh",
   "item.beancraft.stuffing": "Stuffing",
   "item.beancraft.brownfabric": "Brownfabric",
-  "item.beancraft.teddy_throwable": "Teddy Throwable"
+  "item.beancraft.teddy_throwable": "Teddy Throwable",
+  "item.beancraft.false_bean_grass_block": "False Bean Grass Block",
+  "item.beancraft.false_bean_dirt_block": "False Bean Dirt Block",
+  "item.beancraft.false_bean_leaves": "False Bean Leaves",
+  "biome.beancraft.false_bean_biome": "False Bean Biome",
+  "item.beancraft.teddy_3d": "Teddy 3d"
 }

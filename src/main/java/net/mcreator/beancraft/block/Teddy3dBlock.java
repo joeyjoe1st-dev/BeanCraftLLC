@@ -10,8 +10,8 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.core.BlockPos;
 
-public class TeddyworkbenchBlock extends Block {
-	public TeddyworkbenchBlock(BlockBehaviour.Properties properties) {
+public class Teddy3dBlock extends Block {
+	public Teddy3dBlock(BlockBehaviour.Properties properties) {
 		super(properties.sound(SoundType.GRAVEL).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}
 

@@ -3,6 +3,8 @@
   "values": [
     "beancraft:dirt",
     "minecraft:stone",
-    "beancraft:beangrass"
+    "beancraft:beangrass",
+    "beancraft:false_bean_dirt_block",
+    "beancraft:false_bean_grass_block"
   ]
 }
