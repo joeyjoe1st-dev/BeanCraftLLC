@@ -40,6 +40,7 @@ public class BeancraftModItems {
 	public static final DeferredItem<Item> FALSE_BEAN_DIRT_BLOCK;
 	public static final DeferredItem<Item> FALSE_BEAN_LEAVES;
 	public static final DeferredItem<Item> TEDDY_3D;
+	public static final DeferredItem<Item> FALSE_BEAN_COBBLE_STONE;
 	static {
 		BEANGRASS = block(BeancraftModBlocks.BEANGRASS);
 		DIRT = block(BeancraftModBlocks.DIRT);
@@ -63,6 +64,7 @@ public class BeancraftModItems {
 		FALSE_BEAN_DIRT_BLOCK = block(BeancraftModBlocks.FALSE_BEAN_DIRT_BLOCK);
 		FALSE_BEAN_LEAVES = block(BeancraftModBlocks.FALSE_BEAN_LEAVES);
 		TEDDY_3D = block(BeancraftModBlocks.TEDDY_3D);
+		FALSE_BEAN_COBBLE_STONE = block(BeancraftModBlocks.FALSE_BEAN_COBBLE_STONE);
 	}
 
 	// Start of user code block custom items

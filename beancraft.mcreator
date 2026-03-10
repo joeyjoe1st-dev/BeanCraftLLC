@@ -603,12 +603,12 @@
       "registry_name": "false_bean_grass_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/beancraft/blockstates/false_bean_grass_block.json",
-          "src/main/resources/assets/beancraft/models/block/false_bean_grass_block.json",
           "src/main/resources/assets/beancraft/items/false_bean_grass_block.json",
+          "src/main/resources/assets/beancraft/models/block/false_bean_grass_block.json",
+          "src/main/java/net/mcreator/beancraft/block/FalseBeanGrassBlockBlock.java",
           "src/main/resources/data/beancraft/loot_table/blocks/false_bean_grass_block.json",
-          "src/main/resources/assets/beancraft/models/item/false_bean_grass_block.json",
-          "src/main/java/net/mcreator/beancraft/block/FalseBeanGrassBlockBlock.java"
+          "src/main/resources/assets/beancraft/blockstates/false_bean_grass_block.json",
+          "src/main/resources/assets/beancraft/models/item/false_bean_grass_block.json"
         ]
       },
       "path": "~/Blocks"
@@ -621,12 +621,12 @@
       "registry_name": "false_bean_dirt_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/beancraft/items/false_bean_dirt_block.json",
-          "src/main/resources/data/beancraft/loot_table/blocks/false_bean_dirt_block.json",
-          "src/main/resources/assets/beancraft/models/item/false_bean_dirt_block.json",
-          "src/main/resources/assets/beancraft/models/block/false_bean_dirt_block.json",
           "src/main/java/net/mcreator/beancraft/block/FalseBeanDirtBlockBlock.java",
-          "src/main/resources/assets/beancraft/blockstates/false_bean_dirt_block.json"
+          "src/main/resources/assets/beancraft/models/block/false_bean_dirt_block.json",
+          "src/main/resources/assets/beancraft/items/false_bean_dirt_block.json",
+          "src/main/resources/assets/beancraft/blockstates/false_bean_dirt_block.json",
+          "src/main/resources/data/beancraft/loot_table/blocks/false_bean_dirt_block.json",
+          "src/main/resources/assets/beancraft/models/item/false_bean_dirt_block.json"
         ]
       },
       "path": "~/Blocks"
@@ -639,8 +639,8 @@
       "registry_name": "false_bean_leaves",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/beancraft/block/FalseBeanLeavesBlock.java",
           "src/main/resources/data/beancraft/loot_table/blocks/false_bean_leaves.json",
+          "src/main/java/net/mcreator/beancraft/block/FalseBeanLeavesBlock.java",
           "src/main/resources/assets/beancraft/models/item/false_bean_leaves.json",
           "src/main/resources/assets/beancraft/blockstates/false_bean_leaves.json",
           "src/main/resources/assets/beancraft/models/block/false_bean_leaves.json",
@@ -681,6 +681,24 @@
           "src/main/resources/assets/beancraft/models/block/teddy_3d.json",
           "src/main/resources/assets/beancraft/models/item/teddy_3d.json",
           "src/main/resources/assets/beancraft/blockstates/teddy_3d.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "FalseBeanCobbleStone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "false_bean_cobble_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beancraft/blockstates/false_bean_cobble_stone.json",
+          "src/main/resources/data/beancraft/loot_table/blocks/false_bean_cobble_stone.json",
+          "src/main/resources/assets/beancraft/models/item/false_bean_cobble_stone.json",
+          "src/main/resources/assets/beancraft/items/false_bean_cobble_stone.json",
+          "src/main/resources/assets/beancraft/models/block/false_bean_cobble_stone.json",
+          "src/main/java/net/mcreator/beancraft/block/FalseBeanCobbleStoneBlock.java"
         ]
       },
       "path": "~/Blocks"
@@ -803,7 +821,8 @@
       "item.beancraft.false_bean_dirt_block": "False Bean Dirt Block",
       "item.beancraft.false_bean_leaves": "False Bean Leaves",
       "biome.beancraft.false_bean_biome": "False Bean Biome",
-      "item.beancraft.teddy_3d": "Teddy 3d"
+      "item.beancraft.teddy_3d": "Teddy 3d",
+      "item.beancraft.false_bean_cobble_stone": "False Bean Cobble Stone"
     }
   },
   "metadata": {
@@ -813,13 +832,13 @@
       "src/main/java/net/mcreator/beancraft/init/BeancraftModBlocks.java",
       "src/main/java/net/mcreator/beancraft/init/BeancraftModBlockEntities.java",
       "src/main/java/net/mcreator/beancraft/init/BeancraftModItems.java",
-      "src/main/java/net/mcreator/beancraft/init/BeancraftModEntities.java",
       "src/main/java/net/mcreator/beancraft/init/BeancraftModEntityRenderers.java",
-      "src/main/resources/pack.mcmeta",
-      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/beancraft/init/BeancraftModEntities.java",
       "src/main/resources/META-INF/accesstransformer.cfg",
-      "src/main/java/net/mcreator/beancraft/BeancraftMod.java",
-      "src/main/java/net/mcreator/beancraft/init/BeancraftModTabs.java"
+      "src/main/java/net/mcreator/beancraft/init/BeancraftModTabs.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/beancraft/BeancraftMod.java"
     ]
   },
   "foldersRoot": {

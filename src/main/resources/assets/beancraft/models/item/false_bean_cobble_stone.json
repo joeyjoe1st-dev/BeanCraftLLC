@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "beancraft:item/falsecobblestone"
+  },
+  "render_type": "translucent"
+}

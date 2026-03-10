@@ -2,12 +2,12 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "falsebeanleaves",
-    "textureTop": "falsebeanleaves",
-    "textureLeft": "falsebeanleaves",
-    "textureFront": "falsebeanleaves",
-    "textureRight": "falsebeanleaves",
-    "textureBack": "falsebeanleaves",
+    "texture": "falsecobblestone",
+    "textureTop": "falsecobblestone",
+    "textureLeft": "falsecobblestone",
+    "textureFront": "falsecobblestone",
+    "textureRight": "falsecobblestone",
+    "textureBack": "falsecobblestone",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -15,7 +15,7 @@
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "animations": [],
-    "itemTexture": "falsebeanleaves",
+    "itemTexture": "falsecobblestone",
     "particleTexture": "",
     "blockSetType": "OAK",
     "pottedPlant": {
@@ -39,7 +39,7 @@
       }
     ],
     "customProperties": [],
-    "name": "False Bean Leaves",
+    "name": "False Bean Cobble Stone",
     "specialInformation": {
       "fixedValue": []
     },

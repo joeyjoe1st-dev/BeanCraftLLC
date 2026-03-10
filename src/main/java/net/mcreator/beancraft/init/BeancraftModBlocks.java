@@ -31,6 +31,7 @@ public class BeancraftModBlocks {
 	public static final DeferredBlock<Block> FALSE_BEAN_DIRT_BLOCK;
 	public static final DeferredBlock<Block> FALSE_BEAN_LEAVES;
 	public static final DeferredBlock<Block> TEDDY_3D;
+	public static final DeferredBlock<Block> FALSE_BEAN_COBBLE_STONE;
 	static {
 		BEANGRASS = register("beangrass", BeangrassBlock::new);
 		DIRT = register("dirt", DirtBlock::new);
@@ -47,6 +48,7 @@ public class BeancraftModBlocks {
 		FALSE_BEAN_DIRT_BLOCK = register("false_bean_dirt_block", FalseBeanDirtBlockBlock::new);
 		FALSE_BEAN_LEAVES = register("false_bean_leaves", FalseBeanLeavesBlock::new);
 		TEDDY_3D = register("teddy_3d", Teddy3dBlock::new);
+		FALSE_BEAN_COBBLE_STONE = register("false_bean_cobble_stone", FalseBeanCobbleStoneBlock::new);
 	}
 
 	// Start of user code block custom blocks
