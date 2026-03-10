@@ -593,7 +593,7 @@
           "src/main/resources/assets/beancraft/items/teddy_throwable.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Items/Weapons/Throwables"
     }
   ],
   "variable_elements": [],
@@ -729,7 +729,17 @@
     "children": [
       {
         "name": "Items",
-        "children": []
+        "children": [
+          {
+            "name": "Weapons",
+            "children": [
+              {
+                "name": "Throwables",
+                "children": []
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Bean_biomes",
