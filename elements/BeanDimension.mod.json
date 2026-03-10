@@ -5,6 +5,9 @@
     "biomesInDimension": [
       {
         "value": "CUSTOM:Grassland"
+      },
+      {
+        "value": "CUSTOM:FalseBeanBiome"
       }
     ],
     "worldGenType": "Normal world gen",

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "beancraft:block/falsebeandirt",
+    "up": "beancraft:block/falsebeandirt",
+    "north": "beancraft:block/falsebeandirt",
+    "east": "beancraft:block/falsebeandirt",
+    "south": "beancraft:block/falsebeandirt",
+    "west": "beancraft:block/falsebeandirt",
+    "particle": "beancraft:block/falsebeandirt"
+  },
+  "render_type": "solid"
+}
